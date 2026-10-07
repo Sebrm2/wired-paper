@@ -53,18 +53,20 @@ each figure by subject area and by retraction-year range; the world map responds
 and zoom; and the citation-analysis panels relate a paper's prominence to how long it took
 to retract.
 
-:::{iframe} https://<your-github-username>.github.io/retraction-analysis/?app=1
-:width: 100%
-:height: 760px
+<div style="position:relative;width:100%;height:760px;border:1px solid #d6d0c1;border-radius:3px;overflow:hidden;margin:1.5rem 0;">
+  <iframe
+    src="https://Sebrm2.github.io/retraction-analysis/?app=1"
+    style="width:100%;height:100%;border:0;"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
 
-The interactive retraction dashboard. Use the **Subject focus** control to switch between
-the four fields, the combined biomedical set, and all papers; use the per-figure **Years**
-controls to restrict the date range. (Replace the URL above with your deployed dashboard.)
-:::
+<p><a href="https://Sebrm2.github.io/retraction-analysis/?app=1" target="_blank" rel="noopener"><strong>Open the dashboard in a new tab →</strong></a></p>
 
 :::{note} Prefer a full window?
 The dashboard also runs as a standalone page. Open it in a new tab here:
-[**Open the dashboard →**](https://<your-github-username>.github.io/retraction-analysis/)
+[**Open the dashboard →**](https://Sebrm2.github.io/retraction-analysis/)
 :::
 
 ## Methods

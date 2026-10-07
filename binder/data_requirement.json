@@ -1,0 +1,8 @@
+{
+  "src": [
+    {
+      "url": "https://Sebrm2.github.io/retraction-analysis/data.json",
+      "dst": "retraction-biomedical/data.json"
+    }
+  ]
+}

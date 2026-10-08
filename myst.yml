@@ -1,0 +1,48 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "Retraction patterns in quantitative and imaging-focused biomedical fields"
+  subtitle: "An interactive, data-wired analysis of the Retraction Watch Database"
+  # thebe lets readers attach a live Binder runtime to make the figures interactive
+  thebe:
+    binder:
+      url: https://terrarium.evidencepub.io
+      repo: <your-github-username>/wired-paper   # change to your repo
+      ref: HEAD
+  authors:
+    - name: Sebastian Rodriguez
+      # orcid: 0000-0000-0000-0000   # add your ORCID if you have one
+      email: your-email@example.com
+      corresponding: true
+      affiliations:
+        - umontreal
+  affiliations:
+    - id: umontreal
+      name: Université de Montréal
+  keywords:
+    - research integrity
+    - retractions
+    - bibliometrics
+    - open science
+    - meta-research
+  github: https://github.com/<your-github-username>/wired-paper   # change this
+  # banner: ./static/banner.png
+  venue: Evidence Day
+  subject: Meta-research
+  # doi: 10.xxxxx/xxxxx
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  exports:
+    - format: pdf
+      template: arxiv_nips
+      output: exports/paper.pdf
+  bibliography:
+    - paper.bib
+
+site:
+  template: article-theme
+  options:
+    style: ./custom.css   # custom CSS; sets the embedded dashboard's box height
+  # url: https://<your-github-username>.github.io/wired-paper   # your Pages URL

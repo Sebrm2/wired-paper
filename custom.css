@@ -1,0 +1,26 @@
+/* ---------------------------------------------------------------------------
+   Custom styles for the wired paper.
+   Loaded via myst.yml -> site.options.style: ./custom.css
+--------------------------------------------------------------------------- */
+
+/* Embedded dashboard sizing.
+   MyST renders every embedded iframe inside a box whose HEIGHT is locked to
+   60% of its WIDTH (an inline `padding-bottom: 60%` on the inner wrapper), and
+   the height set on the iframe itself is stripped out during sanitization.
+   That is why the box could never be resized from paper.md and clipped at the
+   same point every time.
+
+   These rules target the dashboard embed (the {iframe} directive carries the
+   `dash-embed` class) and replace that aspect-ratio box with a FIXED pixel
+   height, so every tab of the dashboard fits with no inner scrollbar.
+   To make the box taller or shorter, change the one `height` value below. */
+.dash-embed {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.dash-embed .relative {
+  padding-bottom: 0 !important;   /* drop MyST's 60%-of-width aspect ratio   */
+  height: 1050px !important;      /* <-- the box height: adjust to taste     */
+  width: 100% !important;
+  max-width: 100% !important;
+}

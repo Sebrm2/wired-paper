@@ -57,7 +57,7 @@ to retract.
   <iframe
     id="dashframe"
     src="https://sebrm2.github.io/retraction-analysis/?app=1&v=11"
-    style="display:block;width:100%;height:820px;border:0;"
+    style="display:block;width:120%;height:1220px;border:0;"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
     title="Interactive retraction dashboard">

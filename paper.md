@@ -55,7 +55,7 @@ to retract.
 
 <div style="position:relative;width:100%;height:850px;border:1px solid #d6d0c1;border-radius:3px;overflow:hidden;margin:1.5rem 0;">
   <iframe
-    src="https://sebrm2.github.io/retraction-analysis/?app=1"
+    src="https://sebrm2.github.io/retraction-analysis/?app=1&v=6"
     style="width:100%;height:100%;border:0;"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
@@ -69,7 +69,7 @@ reasons, geography, and citation views.
 
 :::{note} Prefer a full window?
 The dashboard also runs as a standalone page:
-[**Open the dashboard in a new tab →**](https://sebrm2.github.io/retraction-analysis/?app=1)
+[**Open the dashboard in a new tab →**](https://sebrm2.github.io/retraction-analysis/?app=1&v=6)
 :::
 
 ## Methods

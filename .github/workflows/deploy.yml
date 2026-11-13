@@ -31,7 +31,7 @@ jobs:
           node-version: 20
 
       - name: Install MyST
-        run: npm install -g mystmd@1.11.0
+        run: npm install -g mystmd
 
       - name: Build the article
         run: myst build --html

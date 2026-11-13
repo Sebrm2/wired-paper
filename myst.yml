@@ -32,8 +32,8 @@ project:
     - meta-research
   github: https://github.com/sebrm2/wired-paper   # change if your repo differs
   # banner: ./static/banner.png
-  venue: Evidence Day
-  subject: Meta-research
+  venue: 
+  subject: 
   # doi: 10.xxxxx/xxxxx
   open_access: true
   license:

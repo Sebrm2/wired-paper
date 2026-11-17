@@ -7,7 +7,7 @@ project:
   # built site so readers land on the paper, not the deploy instructions.
   index: paper.md
   # Keep these out of the built site: the README (deploy notes), the unused
-  # template notebook (its _public route crashes the current theme build), and
+  # template notebook (its _public route crashes the current theme build)
   # the old custom stylesheet (the dashboard now sizes its own embed box)
   exclude:
     - README.md

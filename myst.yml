@@ -17,7 +17,7 @@ project:
   thebe:
     binder:
       url: https://terrarium.evidencepub.io
-      repo: https://github.com/sebrm2/wired-paper   # change if your repo differs
+      repo: https://github.com/sebrm2/wired-paper   #change if your repo differs
       ref: HEAD
   authors:
     - name: Sebastian Rodriguez
